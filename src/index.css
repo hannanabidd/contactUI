@@ -1,13 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins';
+  background-color: #F5F5F7 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-box{
+    background-color: white;
+    margin-top:30px;
+}
+.profile-img{
+    width:100%;
+}
+.main-box .box{
+    padding:0px 20px;
+}
+.main-box .box .rounded-box{
+    box-shadow: -1px 0px 9px 4px rgba(173, 113, 113, 0.16);
+    -webkit-box-shadow: -1px 0px 9px 4px rgba(112,112,112,0.16);
+    -moz-box-shadow: -1px 0px 9px 4px rgba(112,112,112,0.16);
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+    padding:15px;
+    text-align: center;
+    display:flex;
+    align-items: stretch;
+    margin-bottom: 15px;
+}
+.main-box .box .rounded-box .icon-img{
+    flex-grow: 1;
+    text-align: center;
+}
+.main-box .box .rounded-box .contact-info{
+    flex-grow: 8;
+    text-align: center;
+}
+a, a:hover{
+    text-decoration: none !important;
+}
+h1, h2, h3, h4, h5, h6, p{
+  color: #111111 ;
+  font-family: 'Poppins';
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+label{
+  font-family: 'Poppins';
+}
+.sp-90{
+    padding:90px 0px;
+  }
+  .sp-60{
+    padding:60px 0px;
+  }
+
+.banner-heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.banner-p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.banner-p1{
+    font-size: 12px;
+    margin-top: 35px;
+    margin-bottom:35px;
+    text-align: center;
+    color: #707070;
+}
+
+.icon{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.info-p{
+    margin-bottom: 0px;
+    margin-left:-25px;
+}
+.padding-lr{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* .body{
+   background-color: #F5F5F7;
+} */
+
+@media(max-width:450px){
+    .special-padding{
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
 }
