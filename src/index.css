@@ -8,6 +8,8 @@ body {
 .main-box{
     background-color: white;
     margin-top:30px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 .profile-img{
     width:100%;
@@ -44,6 +46,43 @@ h1, h2, h3, h4, h5, h6, p{
   font-family: 'Poppins';
   font-weight: 300;
   margin-bottom: 0px;
+}
+
+.contact-btn{
+    margin-top: 30px;
+    
+    outline:none;
+    background-color: #B79963;
+    color: #111111;
+    border:2px solid #B79963;
+    transition: 0.1s;
+    font-size:15px;
+    font-weight: normal;
+    padding:20px 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    border-radius: 5px;
+    
+}
+.contact-btn:hover{
+    
+    outline:none;
+    background-color: white;
+    color:#B79963;
+    border:2px solid #B79963;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size:15px;
+    font-weight: 300px;
+    padding:20px 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    border-radius: 5px;
+}
+.button-row{
+    display: flex;
+    justify-content: center;
+    
 }
 
 label{
