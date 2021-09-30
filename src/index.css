@@ -37,6 +37,12 @@ body {
 .main-box .box .rounded-box .contact-info{
     flex-grow: 8;
     text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.special-text{
+    width:70%;
 }
 a, a:hover{
     text-decoration: none !important;
@@ -47,7 +53,11 @@ h1, h2, h3, h4, h5, h6, p{
   font-weight: 300;
   margin-bottom: 0px;
 }
-
+.sticky-btn{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 30px;
+}
 .contact-btn{
     margin-top: 30px;
     
