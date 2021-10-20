@@ -3,10 +3,10 @@ import $ from 'jquery';
 import ContactCard from '../../src/AmirMiri.vcf';
 function Info() {
     function copiedFunction(){
-        let copiedText = document.getElementById("we-chat").textContent
-        // let weChatNumber = '+6046575030'
-        navigator.clipboard.writeText(copiedText);
-        alert("Copied: " + copiedText)
+        // let copiedText = document.getElementById("we-chat").textContent
+        let weChatNumber = '+6046575030';
+        navigator.clipboard.writeText(weChatNumber);
+        alert("Copied: " + weChatNumber)
     }
     return(
         <Fragment>
@@ -67,7 +67,7 @@ function Info() {
                                 <img src="/images/wechat.svg" className="" alt="whatsapp"/>
                         </div>
                         <div className="contact-info">
-                            <p id="we-chat" className="info-p">+6046575030</p>
+                            <p id="we-chat" className="info-p">WeChat to: AmirRealtor</p>
                         </div>
                     </button>
                 </a>
